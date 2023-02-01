@@ -1,0 +1,84 @@
+/* regra RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(174deg, rgba(54,77,204,1) 0%, rgba(73,28,148,1) 52%);
+    
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 0 0 15px white;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+
+}
+
+/* Regra aninhada */
+.social img {
+    width: 33px;
+}
+
+/* .links-list p {
+    color: rgb(128, 22, 228);
+    font-size: 20px;
+} */
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 5px;
+}
